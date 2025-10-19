@@ -1,0 +1,26 @@
+{
+  "name": "sepehr-ai-ipg",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx --watch --watch-path=src src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/formbody": "^8.0.2",
+    "dotenv": "^17.2.3",
+    "fastify": "^5.6.1",
+    "tsx": "^4.20.6",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.2"
+  },
+  "packageManager": "pnpm@10.18.2"
+}
