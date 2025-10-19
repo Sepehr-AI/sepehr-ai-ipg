@@ -20,7 +20,7 @@
     "zod": "^4.1.12"
   },
   "devDependencies": {
-    "@types/node": "^24.7.2"
+    "@types/node": "^24.9.2"
   },
   "packageManager": "pnpm@10.18.2"
 }
